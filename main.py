@@ -60,6 +60,7 @@ def lihat():
             print('kosong')
             kosong = tk.Label(appsLihat, text='Data Kosong')
             kosong.pack()
+            q.close()
         else:
             for row in q.fetchall():
                 print(row)
